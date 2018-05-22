@@ -9,20 +9,13 @@ class SectionA extends Component {
     render() { 
         return ( 
             <div className="container">
-                
+                <div className='SectionA'>
                     <Header />
-                
-
-                <div className="row">
+                          
                     <Intro />
-                </div>
-
-                <div className="row">
-                    <Image />
-                </div>                                
-                
-               
-                  
+              
+                    <Image />      
+                </div>                                  
             </div>
          )
     }

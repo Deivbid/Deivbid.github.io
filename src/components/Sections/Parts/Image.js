@@ -4,8 +4,8 @@ class Image extends Component {
     state = {}
     render() { 
         return ( 
-            <div> 
-            Hola soy un Image
+            <div className='row'> 
+                <img className='hero-foot' src='http://mattfarley.ca/img/hero.png' />
             </div>                
          )
     }
