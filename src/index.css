@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* SECTION A  */
+.btn-outline-purple {
+  color: #8C43FF;
+  background-color: transparent;
+  background-image: none;
+  border-color:#8C43FF;
+  border-width: 2px;
+  border-radius: 290486px;
+
+  font-size: 120%;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 3%;
+}
+
+.sayHi{
+  text-align: right;
+}
+
+.btn-outline-purple:hover 
+{
+  background: #8C43FF;
+  color: white;
+}
+
+.logo-react{
+  font-size: 3em;
+  color: #8C43FF;
+}
+
+.logo-title{
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+}
+
+.header {
+  margin-top: 2%;
+}
