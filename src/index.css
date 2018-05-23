@@ -82,7 +82,7 @@ body {
   justify-content: center;
   text-align: center;
   flex: none;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -99,21 +99,104 @@ body {
 }
 
 /* SECTION C */
+.skills {
+    margin-top: -14rem;
+    padding-bottom: 1rem;
+}
+
+div .skills {
+    padding: 5rem 6rem;
+    text-align: center !important;
+}
 
 .container.is-narrow {
   max-width: 1200px;
 }
 
-.skills .box {
+div .skills .box {
   padding: 0;
+}
+
+div .skills .box .content .columns {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .box {
   border-radius: 12px;
   background-color: #fff;
-    box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
-    color: #293347;
-    display: block;
-    
+  box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+  color: #293347;
+  display: block;
 }
 
+
+
+@media screen and (min-width: 769px)
+{  
+  .skills .box .content .columns .column {
+      border-bottom: 0px solid #E6ECF8;
+      border-right: 1px solid #E6ECF8;
+      padding: 60px 35px;
+  }
+}
+
+div .skills .box .content .columns .column {
+    padding: 50px 30px;
+    border-bottom: 1px solid #E6ECF8;
+     border-right: 2px solid #E6ECF8; 
+}
+
+.skills .box .content .columns .column figure.image {
+    margin: 0 auto;
+    font-size: 4em;
+    color: #8C43FF;
+}
+
+.content h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;  
+
+}
+
+.column .title {
+  font-size: 1.5rem !important;
+  margin-top: 1em;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 769px)
+{  
+  div .skills .box .content .columns .column p {
+      font-size: 18px;
+      margin-bottom: 2em;
+  }
+}
+
+.skills p {
+  margin-bottom: 2rem;
+}
+
+div .skills .box .content .columns .column p.list-title {
+    margin-top: 50px;
+    margin-bottom: 8px;
+    color: #8C43FF !important;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;      
+}
+
+div .skills .box .content .columns .column ul {
+    list-style: none;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center !important;
+    padding: 0;
+    line-height: 2;
+    margin: 0;  
+    font-family: 'Noto Sans', sans-serif; 
+    font-weight: 400; 
+}
+
+.fix {
+  padding: 0
+}

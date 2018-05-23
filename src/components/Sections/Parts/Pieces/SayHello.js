@@ -8,7 +8,7 @@ class SayHello extends Component {
         
         return (  
             <div className="col-sm-6 sayHi">
-                <button type="button" class="btn btn-outline-purple">Say Hello</button>
+                <button type="button" className="btn btn-outline-purple">Say Hello</button>
             </div>
         )
     }
