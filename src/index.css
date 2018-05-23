@@ -98,14 +98,14 @@ body {
   line-height: 2;
 }
 
-/* SECTION C */
+/* ========= SECTION C ====================*/
 .skills {
     margin-top: -14rem;
     padding-bottom: 1rem;
 }
 
 div .skills {
-    padding: 5rem 6rem;
+    padding: 8rem 23rem;
     text-align: center !important;
 }
 
@@ -199,4 +199,66 @@ div .skills .box .content .columns .column ul {
 
 .fix {
   padding: 0
+}
+
+/*========== SECTION D ==========*/
+
+.set-bg {
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.portfolio-item {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.portfolio-item .pi-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: transparent;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.portfolio-item .pi-inner h2 {
+  opacity: 0;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  color: #fff;
+  letter-spacing: 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.portfolio-item:hover .pi-inner {
+  background: rgba(0, 20, 24, 0.8);
+}
+
+.portfolio-item:hover .pi-inner h2 {
+  opacity: 1;
+  letter-spacing: 0;
+}
+
+.modal-dialog {
+  max-width: 1000px;
+}
+
+.projects{
+  padding: 0 10rem;
 }
