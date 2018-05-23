@@ -12,10 +12,10 @@ class ProjectCard extends Component {
             backgroundPosition: 'center center'
         }
         return ( 
-            <div class="mix col-lg-4 col-md-4 web" >
+            <div class="mix col-lg-4 col-md-6 web" >
                 <a  data-toggle="modal" data-target={'#'+name} class="portfolio-item set-bg" style={styless}>
                     <div class="pi-inner">
-                        <h2>+ See Project</h2>
+                        <h2>+ {this.props.name.toUpperCase()}</h2>
                     </div>						
                 </a>
             
@@ -23,7 +23,7 @@ class ProjectCard extends Component {
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                         <div class="modal-header center">
-                            <h5 class="modal-title center" id="exampleModalLongTitle">Crack</h5>
+                            <h5 class="modal-title center" id="exampleModalLongTitle">{this.props.name}</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                             </button>
@@ -34,10 +34,10 @@ class ProjectCard extends Component {
                                     
                                 Your browser does not support HTML5 video.
                             </video>
-                            <p>{this.props.description}</p>
+                            <p className="modal-text">{this.props.description}</p>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                         </div>
                         </div>
                     </div>

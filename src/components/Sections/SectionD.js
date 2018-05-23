@@ -8,7 +8,7 @@ class SectionD extends Component {
         return ( 
             <div className="projects">
                 
-                    <Title title="My Recent Work" />
+                    <Title title="My Recent Work" class="title" />
                     <h2 className="subtitle"> Here are some ReactJS projects. Want to see more ? <a href="mailto:davidaapariciobak@gmail.com?Subject=Hello%20David" target="_top">Email me</a></h2>
                     <Projects />
                 

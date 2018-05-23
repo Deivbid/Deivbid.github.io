@@ -203,13 +203,24 @@ div .skills .box .content .columns .column ul {
 
 /*========== SECTION D ==========*/
 
-.set-bg {
-  
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+.projects{
+  text-align: center;
+  padding: 0 25rem;
 }
 
+.services{
+  margin-top: 5rem;
+}
+
+.projects .subtitle{
+  margin-top: 2rem;
+}
+
+.modal-text{
+  margin-top: 2rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400; 
+}
 
 .portfolio-item {
   display: block;
@@ -247,7 +258,7 @@ div .skills .box .content .columns .column ul {
 }
 
 .portfolio-item:hover .pi-inner {
-  background: rgba(0, 20, 24, 0.8);
+  background: rgba(	140, 67, 255, 0.4);
 }
 
 .portfolio-item:hover .pi-inner h2 {
@@ -257,8 +268,4 @@ div .skills .box .content .columns .column ul {
 
 .modal-dialog {
   max-width: 1000px;
-}
-
-.projects{
-  padding: 0 10rem;
 }
