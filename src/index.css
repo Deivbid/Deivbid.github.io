@@ -316,6 +316,7 @@ div .skills .box .content .columns .column ul {
   background-color: #8C43FF;
   padding: 5rem;
   color: white;
+  padding-bottom: 10rem;
 }
 
 
@@ -348,4 +349,104 @@ div .skills .box .content .columns .column ul {
 
 
 /*================ Section G ================*/
+
+.action{
+  margin-top: -4rem;
+  color: #fff;
+}
+
+.action .box{
+  background: #293347;
+  color: #fff;
+}
+
+.action .row{
+  height: 100%;
+}
+
+.fix-box {
+  text-align: center;
+  margin: auto 0;
+  padding: 2rem 2rem;
+}
+
+.but-action{
+  color: white;
+  padding: 0.5rem 2rem;
+}
+
+.title-action{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.125;
+}
+
+.action-text{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.125;
+  margin-bottom: 0;
+}
+
+/*========== SECTION H ============ */
+
+footer {
+  padding: 10rem 2rem 1rem;
+
+}
+
+.logo{
+  text-align: center;
+}
+.footer{
+  text-align: center;
+
+}
+
+.title-footer-box{
+  justify-content: center;
+  margin: 1rem;
+}
+
+.title-footer{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.125;
+}
+
+.social-links{
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+ .social-link{
+  background-color: transparent;
+  color: rgb(	140, 67, 255) !important;
+  border-radius: 100%;
+  padding: 0.6rem;
+  height: 47px;
+  width: 47px;
+  border: 2px solid rgba(	140, 67, 255, 0.8);
+  margin: 0 0.5rem;
+}
+
+.ic {
+  width: 18px;
+}
+
+.social-link:hover{
+  background-color: rgb(	140, 67, 255);
+  border: 2px solid rgba(	255, 255, 255, 0.8);
+  color: white !important;
+}
+
+.copyright {
+  text-align: center;
+  margin: 4rem 0rem 0.5rem;
+}
+
+
 
