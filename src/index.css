@@ -105,7 +105,7 @@ body {
 }
 
 div .skills {
-    padding: 8rem 23rem;
+    padding: 8rem 12rem;
     text-align: center !important;
 }
 
@@ -201,11 +201,15 @@ div .skills .box .content .columns .column ul {
   padding: 0
 }
 
+.column{
+  height: 100%;
+}
+
 /*========== SECTION D ==========*/
 
 .projects{
   text-align: center;
-  padding: 0 25rem;
+  padding: 5rem 10rem;
 }
 
 .services{
@@ -269,3 +273,79 @@ div .skills .box .content .columns .column ul {
 .modal-dialog {
   max-width: 1000px;
 }
+
+.but {
+  margin-top: 5rem;
+  padding: .5rem 3rem;
+}
+
+/*=================== SECTION E ===================*/
+
+.work {
+      padding: 5rem 1.5rem;
+      border-top: 2px solid #E6ECF8;
+      text-align: center;
+}
+
+.title-work{
+    color: #293347;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.125;
+}
+
+.half{
+
+        flex: none;
+        width: 50%;
+}
+
+.med{
+  justify-content: center;
+}
+
+.images {
+  margin-top: 4rem;
+}
+
+/*=================== SECTION F ===================*/
+
+.contact {
+  text-align: center;
+  background-color: #8C43FF;
+  padding: 5rem;
+  color: white;
+}
+
+
+.profile{
+  width: 320px;
+  height: 320px;
+  border-radius: 50%; /*don't forget prefixes*/
+  background-image: url('https://i.imgur.com/6yjMFbG.jpg');
+  background-position: 23px -1px;
+  /* as mentioned by Vad: */
+  background-size: cover;
+  border: 2px solid white;
+
+}
+
+.contact-row{
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.title-contact{
+      font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+.contact-item-right{
+  margin: 2rem 0;
+}
+
+
+
+/*================ Section G ================*/
+
