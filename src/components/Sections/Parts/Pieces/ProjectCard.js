@@ -5,12 +5,6 @@ class ProjectCard extends Component {
     render() { 
         let image = this.props.image
         let name = this.props.name
-        let styless = {
-            background: 'url('+image+')',
-            backgroundSize: 'contain',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center center'
-        }
         return ( 
             <div>
                 <figure class="image is-3by2">

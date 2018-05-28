@@ -4,28 +4,29 @@ import Title from './Parts/Pieces/Title'
 export default class SectionF extends Component {
 	render() {
 		return (
-			<div className="contact">
-				<div className="container">
-					<div className="row med">
-						<Title title="Send me a message" class="title-contact" />
+			<section class="section testimonials is-medium is-white has-text-centered">
+			<div class="container is-narrow">
+			  <h1 class="title is-spaced is-size-3-desktop is-size-4-mobile">Testimonials</h1>
+			  <h2 class="subtitle is-size-5-desktop">People I've worked with have said some nice things...</h2>
+	  
+			  <div class="columns is-centered">
+				<div class="column is-two-thirds">
+				  <div class="testimonials-carousel">
+					<div class="testimonial-block">
+					  <img src="https://www.nbcstore.com/media/catalog/product/cache/1/image/1000x/040ec09b1e35df139433887a97daa66f/s/t/steve-carrell-best-boss-mug_2_1_3_1.jpg" alt="" class="avatar" />
 					</div>
-					<div className="row contact-row">
-						<div className="col-lg-6">
-							<div className="user profile">
-
-							</div>
-						</div>
-
-						<div className="col-lg-6">
-							<h2 className="contact-item-right"><i class="fas fa-envelope"></i>  davidaaparicioback@gmail.com </h2>
-							<h2 className="contact-item-right"><i class="fas fa-phone"></i>  +58 414 582 5878 </h2>
-							<h2 className="contact-item-right"><i class="fab fa-skype"></i>   alfapa651 </h2>
-							<h2 className="contact-item-right"><i class="fab fa-discord"></i>    Deivbid#1482 </h2>
-						</div>
-
-					</div>
+	  
+					<p class="quote">
+					  “David was a real pleasure to work with and we look forward to working with him again. He’s the kind of developer you can trust with a project from start to finish.”
+					</p>
+	  
+					<h1 class="title is-size-5">Carlos Irigoyen</h1>
+					<h2 class="subtitle is-size-6">Project Manager, Good Kind</h2>
+				  </div>
 				</div>
+			  </div>
 			</div>
+		  </section>
 		);
 	}
 }
