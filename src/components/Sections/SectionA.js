@@ -8,14 +8,14 @@ class SectionA extends Component {
     state = {}
     render() { 
         return ( 
-            <div className="container">
-                <div className='SectionA'>
+            <div>
                     <Header />
-                          
-                    <Intro />
-              
-                    <Image />      
-                </div>                                  
+                    <section class="hero is-white has-text-centered">     
+                        <Intro />
+                
+                        <Image />
+                    </section>      
+                               
             </div>
          )
     }

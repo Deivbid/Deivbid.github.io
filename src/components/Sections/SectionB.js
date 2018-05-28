@@ -5,19 +5,16 @@ class SectionB extends Component {
     state = {}
     render() { 
         return ( 
-            <div className='description'>
-                <div className='container'>
-                    <div className='row desc-text'>
-                        <div container='col-xs-12'>
-                            <Title title="Hi, I'm David. Nice to meet you." class='sectionB-title'/>
-                        </div>
-
-                        <div container='col-xs-12'>
+            <section class="section is-medium is-primary has-text-centered is-long">
+                  <div class="container">
+                    <div class="columns is-centered">
+                        <div class="column is-three-fifths">
+                            <Title class="title is-spaced is-size-3-desktop is-size-4-mobile" title="Hi, I'm David. Nice to meet you." />
                             <Description />
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
          )
     }
 }

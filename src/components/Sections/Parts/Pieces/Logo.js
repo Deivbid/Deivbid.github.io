@@ -5,10 +5,10 @@ class Logo extends Component {
     state = {}
     render() { 
         return ( 
-            <div className="col-sm-6 ">
-                <span className="logo-react"><i className="fab fa-react"></i></span>
-                <h1 className="logo-title d-inline"> David Aparicio </h1> 
-            </div>
+            <a href="/" class="navbar-item">
+                <i class="fab fa-react main-logo"></i>
+                <h1 class="main-name">  David Aparicio</h1>
+            </a>
          )
     }
 }

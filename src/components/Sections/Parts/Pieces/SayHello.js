@@ -7,9 +7,11 @@ class SayHello extends Component {
     render() { 
         
         return (  
-            <div className="col-sm-6 sayHi">
-                <button type="button" className="btn btn-outline-purple">Say Hello</button>
-            </div>
+            <p class="control">
+                <a href="!#" class="button is-primary is-outlined is-rounded">
+                    <span>Say Hello</span>
+                </a>
+            </p>
         )
     }
 }

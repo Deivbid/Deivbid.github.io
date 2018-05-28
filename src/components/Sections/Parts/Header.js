@@ -7,10 +7,21 @@ class Header extends Component {
     state = {}
     render() { 
         return ( 
-            <div className="row header">
-                <Logo />
-                <SayHello />
-            </div>
+            <nav class="navbar is-transparent" >
+                <div class="container">
+                    <div class="navbar-brand">
+                        <Logo />
+                    </div>
+                    
+                    <div class="navbar-menu">
+                        <div class="navbar-end">
+                        <div class="navbar-item">
+                            <SayHello />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         )
     }
 }

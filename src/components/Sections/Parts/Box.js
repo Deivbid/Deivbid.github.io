@@ -13,20 +13,27 @@ let getList = (items) =>{
 export default class Box extends Component {
 	render() {
 		return (
-			<div className="column">
-				<figure className="image">
+			<div>
+				<figure class="image icon-dave">
 					<i className={this.props.icon}></i>
 				</figure>
 
-				<h1 className="title"> {this.props.title} </h1>
-				<p> {this.props.description} </p>
-				<p className="list-title"> {this.props.subtitle} </p>
-				<p> {this.props.content} </p>
-				<p className="list-title"> {this.props.tools} </p>
-				<ul>
-					{getList(this.props.items)}
-				</ul>
+				<h1 class="title is-size-4 is-spaced">{this.props.title}</h1>
+				<p>I tend to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
 
+				<p class="list-title has-text-primary has-text-weight-normal">
+				{this.props.subtitle}
+				</p>
+
+				<p>{this.props.content}</p>
+
+				<p class="list-title has-text-primary has-text-weight-normal">
+				{this.props.tools}
+				</p>
+
+				<ul>
+				{getList(this.props.items)}
+				</ul>
 			</div>
 		);
 	}

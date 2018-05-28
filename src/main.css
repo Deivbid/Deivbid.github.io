@@ -1,0 +1,494 @@
+body {
+	font-family: 'PT sans' sans-serif;
+}
+
+
+/*======================== Navbar =================*/
+
+/* button Say Hello */
+.button.is-primary.is-outlined {
+    background-color: transparent;
+    border-color: #8C43FF;
+    color: #8C43FF;
+    padding: 1.2rem;
+    border-width: 2px;
+    font-size: 18px;
+}
+
+.button.is-primary.is-outlined:hover {
+    background-color: #8C43FF;
+    border-color: transparent;
+    color: #fff;
+    -webkit-transition: background-color 800ms linear;
+    -ms-transition: background-color 800ms linear;
+    transition: background-color 800ms linear;
+}
+
+/* END BUTTON */
+
+/*RESPONSIVE */
+
+.navbar {
+	padding: 1.2rem;
+}
+.navbar-item {
+  display: flex;
+}
+
+.navbar,
+.navbar-menu,
+.navbar-start,
+.navbar-end {
+  align-items: stretch;
+  display: flex;
+  box-shadow: none;
+}
+
+.navbar-menu{
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.navbar-start{
+  justify-content: flex-start;
+  margin-right: auto;
+}
+.navbar-end{
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.navbar .container {
+  display: flex;
+}
+.navbar-item {
+  display: flex;
+  align-items: center;
+}
+
+/* END RESPONSIVE */
+
+/* MAIN LOGO REACT */
+.main-logo{
+	font-size: 3rem;
+	color: #8C43FF;
+}
+
+.main-name {
+	
+	font-family: 'Indie Flower', cursive;
+	margin-left: 1rem;
+	margin-top: 10px;
+	font-size: 2rem;
+}
+
+@media screen and (max-width: 600px){
+	.main-name{
+		display: none;
+	}
+}
+
+/* END MAIN LOGO REACT */
+
+/*============== Hero Section ================= */
+
+
+/*Main picture*/
+.title{
+	font-weight: 800;
+}
+
+.subtitle{
+	font-weight: 300;
+	color: #4a4a4a;
+}
+
+.avatar {
+	margin: 2rem 0;
+	width: 125px;
+}
+
+.hero {
+	padding-top: 2rem;
+}
+/* end main picture */
+/* RESPONSIVE*/
+@media screen and (min-width: 769px){
+
+	.avatar {
+	    width: 210px;
+	}
+	.hero-foot img.is-bottom {
+	    margin-bottom: -0.45rem;
+	    max-width: 860px;
+	}
+}
+/* end responsive */
+/*================ END HERO SECTION ================ */
+
+/*================== SECTION B ======================*/
+.section.is-primary {
+    background-color: #8C43FF;
+    color: #fff;
+}
+
+.section.is-primary .title{
+	color: #fff;
+}
+
+.section.is-primary .subtitle{
+	color: #fff;
+	line-height: 1.5;
+}
+.section.is-long {
+    padding-bottom: 14rem;
+}
+
+@media screen and (min-width: 1280px){
+
+	.section.is-long {
+	    padding-bottom: 18rem;
+	}
+}
+@media screen and (min-width: 769px){
+
+	.section.is-long {
+    	padding-bottom: 16rem;
+	}
+}
+/*================ END SECTION B ======================*/
+
+
+/*=================== SECTION C ===================== */
+.section.skills {
+    margin-top: -14rem;
+    padding-bottom: 1rem;
+}
+
+.section {
+    padding: 5rem 1.5rem;
+}
+
+.container.is-narrow {
+    max-width: 1200px;
+}
+
+.section.skills .box {
+    padding: 0;
+}
+
+.box {
+    border-radius: 12px;
+}
+
+section.skills .box .content .columns {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.section.skills .box .content .columns .column figure.image {
+    margin: 0 auto;
+}
+
+.section.skills .box .content .columns .column figure.image img.is-skill-icon {
+    height: 48px;
+    width: auto;
+}
+
+.section.skills .box .content .columns .column p.list-title {
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
+
+.section.skills .box .content .columns .column ul {
+    list-style: none;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.has-text-primary {
+    color: #8C43FF !important;
+}
+
+.icon-dave{
+    font-size: 3rem;
+    color: #8C43FF;
+}
+@media screen and (min-width: 1280px){
+
+	.section.skills .box .content .columns .column {
+	    padding: 70px 45px;
+	}
+}
+
+@media screen and (min-width: 769px){
+
+	.section.skills .box .content .columns .column {
+	    border-bottom: 1px solid #E6ECF8;
+	    border-right: 1px solid #E6ECF8;
+	    padding: 60px 35px;
+	}
+
+	.column p {
+    	font-size: 18px;
+	}
+
+	.column ul li {
+    	font-size: 18px;
+	}
+}
+.section.skills .box .content .columns .column {
+    padding: 50px 30px;
+    border-bottom: 1px solid #E6ECF8;
+    border-right: 1px solid #E6ECF8;
+}
+/* ================== END SECTION C================= */
+
+/* ================= SECTION D ===================== */
+.projects .project-grid {
+    padding: 2rem 0 4rem;
+}
+
+.projects .project-grid figure {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.projects .project-grid figure img.project-thumb{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.projects .button.is-primary.is-outlined.is-medium {
+    padding: 1.25em 2em;
+    font-weight: 400;
+    border-width: 2px;
+    margin-top: 2rem;
+}
+
+.projects .project-grid figure figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 3rem;
+    color: #fff;
+    z-index: 1;
+}
+
+.projects .project-grid .overlay, .projects .project-grid figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: .45s ease-in-out;
+    transition: .45s ease-in-out;
+}
+
+.projects .project-grid figure figcaption h1.title {
+    color: #fff;
+    margin-bottom: 1.8rem;
+    font-weight: 500;
+}
+
+.projects .project-grid .overlay {
+    background-color: #293347;
+}
+.projects .project-grid figure:hover img{-webkit-transform:scale(1.1);transform:scale(1.1)}
+
+.projects .project-grid figure:hover .overlay,.projects .project-grid figure:hover figcaption{opacity:1; background: #293347}
+
+figcaption span{
+    color:white;
+}
+
+.size{
+    font-size: 1.5rem;
+    margin-right: 8px;
+}
+@media screen and (min-width: 769px)
+{
+	.projects .project-grid {
+	    padding-top: 4rem;
+	}
+
+	.projects .project-grid figure figcaption {
+    	padding: 0rem 2rem;
+	}
+}
+
+@media screen and (min-width: 1472px){
+
+	.container {
+    	max-width: 1344px;
+    	width: 1344px;
+	}
+}
+
+@media screen and (min-width: 1280px)
+{
+
+	.container {
+	    max-width: 1152px;
+	    width: 1152px;
+	}
+}
+
+@media screen and (min-width: 1088px)
+{	
+	.container {
+	    max-width: 960px;
+	    width: 960px;
+	}
+}
+/* ================= END SECTION D ================= */
+
+
+
+/* ================= SECTION E ====================*/
+
+.section.clients {
+    border-top: 1px solid #E6ECF8;
+}
+
+.section.clients .client-grid {
+    padding-top: 3rem;
+}
+
+/* ================= END SECTION E ================ */
+
+/* ================ SECTION F ================== */
+
+.section.testimonials {
+    border-top: 1px solid #E6ECF8;
+}
+
+.section.testimonials .testimonial-block {
+    margin-bottom: 3rem;
+}
+
+.section.testimonials .testimonial-block img.avatar {
+    margin: 2.5rem auto 2rem;
+    max-width: 96px;
+    height: auto;
+}
+
+ p.quote {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+}
+@media screen and (min-width: 769px){
+
+	.section.testimonials .testimonial-block img.avatar {
+	    margin: 4rem auto 2rem;
+	}
+
+	p.quote {
+    	font-size: 25px;
+	}
+}
+/*================== END SECTION F =============== */ 
+
+
+/*=================== SECTON G ====================*/
+
+.section.call-to-action .box {
+    padding: 3.5rem 2rem;
+    margin-top: -9rem;
+    background-color: #293347;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 0 0 1px #293347;
+}
+
+.section.call-to-action .title, .section.call-to-action p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.section.call-to-action .box .button.is-outlined.is-rounded.is-medium {
+    color: #fff;
+    padding: 1.25em 2em;
+    font-weight: 400;
+    border-width: 2px;
+}
+
+@media screen and (min-width: 769px)
+{	
+	.section.call-to-action .box {
+	    padding: 3.5rem 1.25rem;
+	}
+}
+
+@media screen and (min-width: 1472px)
+{
+
+	.container {
+	    max-width: 1344px;
+	    width: 1344px;
+	}
+}
+
+/*=================== END SECTION G =============== */
+
+/* ================== FOOTER =================== */
+.logo .main-logo{
+	color: #fff;
+}
+
+footer .title {
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin: 2rem auto;
+    max-width: 300px;
+    opacity: 0.7;
+}
+
+footer .social-icons {
+    margin: 0 auto 3rem;
+}
+
+.section p {
+    margin-bottom: 2rem;
+}
+
+footer .social-icons a.button {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 100%;
+    margin: 0 .2rem;
+    height: 47px;
+    width: 47px;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+
+footer .social-icons a.button:hover{
+	color: #8C43FF;
+	background: white;
+}
+
+@media screen and (min-width: 769px)
+{
+
+	footer .title {
+	    max-width: 320px;
+	}
+
+	footer .social-icons {
+    	margin: 0 auto 3.5rem;
+	}
+
+	footer .social-icons a.button.is-medium {
+    	font-size: 1.18rem;
+	}
+
+	footer .social-icons a.button{
+    	margin: 0 0.8rem;
+	}
+}
+
+/* ================== END FOOTER =================== */
