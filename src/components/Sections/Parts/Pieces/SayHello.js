@@ -9,7 +9,7 @@ class SayHello extends Component {
         
         return (  
             <p class="control">
-                <Link to="/contact" className="button is-primary is-outlined is-rounded">
+                <Link to={`${process.env.PUBLIC_URL}/contact`} className="button is-primary is-outlined is-rounded">
                     <span>Say Hello</span>
                 </Link>
             </p>

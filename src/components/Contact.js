@@ -18,7 +18,7 @@ export default class Contact extends Component {
 						<div className="navbar-menu">
 							<div className="navbar-end">
 								<p className="buttons">
-									<Link to="/" className="button is-primary is-outlined is-rounded">
+									<Link to={`${process.env.PUBLIC_URL}/`} className="button is-primary is-outlined is-rounded">
 					                    <span>Go Back</span>
 					                </Link>
 								</p>

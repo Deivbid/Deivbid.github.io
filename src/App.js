@@ -8,12 +8,14 @@ import {HashRouter, BrowserRouter, Route} from 'react-router-dom'
 
 
 class App extends Component {
+  
   render() {
+    const baseUrl = process.env.PUBLIC_URL; 
     return (
     	<HashRouter>
     		<div>
-	        	<Route exact path="/" component={LandingPage} />
-	        	<Route  path="/contact" component={Contact} />
+	        	<Route exact path={baseUrl + "/"} component={LandingPage} />
+	        	<Route  path={baseUrl + "/contact"} component={Contact} />
         	</div>
         </HashRouter>
 

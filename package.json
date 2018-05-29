@@ -2,7 +2,7 @@
   "name": "mylp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Deivbid.github.io/Portfolio-React-2018",
+  "homepage": "https://Deivbid.github.io/Portfolio-2018-React",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "grommet-css": "^1.6.0",

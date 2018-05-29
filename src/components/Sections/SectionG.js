@@ -18,7 +18,7 @@ export default class SectionG extends Component {
 		            </div>
 
 		            <div class="column level-item">
-		              <Link to="/contact" class="button is-primary is-outlined is-rounded is-medium">Let's do this</Link>
+		              <Link to={`${process.env.PUBLIC_URL}/contact`} class="button is-primary is-outlined is-rounded is-medium">Let's do this</Link>
 		            </div>
 		          </div>
 		        </div>

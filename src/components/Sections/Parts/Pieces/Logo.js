@@ -5,7 +5,7 @@ class Logo extends Component {
     state = {}
     render() { 
         return ( 
-            <Link to="/" class="navbar-item">
+            <Link to={`${process.env.PUBLIC_URL}/`} class="navbar-item">
                 <i class="fab fa-react main-logo"></i>
                 <h1 class="main-name">  David Aparicio</h1>
             </Link>
