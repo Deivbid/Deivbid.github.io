@@ -2,7 +2,7 @@
   "name": "mylp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Deivbid.github.io/Portfolio-2018-React",
+  "homepage": "https://deivbid.github.io",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "grommet-css": "^1.6.0",
@@ -18,6 +18,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   }
 }
