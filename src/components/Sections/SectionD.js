@@ -18,7 +18,7 @@ class SectionD extends Component {
 
                     <div class="columns is-centered">
                         <div class="column">
-                            <a href="" class="button is-primary is-outlined is-rounded is-medium">
+                            <a href="https://github.com/Deivbid" class="button is-primary is-outlined is-rounded is-medium">
                             <span><i class="fab fa-github size"></i> See more in my Github</span>
                             </a>
                         </div>

@@ -12,12 +12,12 @@ class App extends Component {
   render() {
     const baseUrl = process.env.PUBLIC_URL; 
     return (
-    	<HashRouter>
+    	<BrowserRouter basename={baseUrl}>
     		<div>
-	        	<Route exact path={baseUrl + "/"} component={LandingPage} />
-	        	<Route  path={baseUrl + "/contact"} component={Contact} />
+	        	<Route exact path="/" component={LandingPage} />
+	        	<Route  path="/contact" component={Contact} />
         	</div>
-        </HashRouter>
+        </BrowserRouter>
 
     );
   }

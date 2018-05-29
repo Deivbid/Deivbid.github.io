@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 let getList = (items) =>{
-	console.log(items)
+	
 	return items.map((x,i) => {
 		return(
 			<li key={i}> {x} </li> 
