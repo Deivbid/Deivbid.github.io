@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Logo from './Sections/Parts/Pieces/Logo'
 import Title from './Sections/Parts/Pieces/Title'
 import {Link } from 'react-router-dom'
+import Form from './Sections/Form'
 import './contact.css'
 
 export default class Contact extends Component {
@@ -35,6 +36,12 @@ export default class Contact extends Component {
 									<Title class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile" title="Thanks for taking the time to reach out. What can I do for you today?" />
 								</div>
 							</div>
+						</div>
+					</section>
+
+					<section className="is-white">
+						<div className="container">
+							<Form />
 						</div>
 					</section>
 				</div>

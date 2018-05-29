@@ -20,9 +20,9 @@ export default class SectionE extends Component {
 							</figure>
 						</div>
 
-						<div class="column is-half-mobile is-one-quarter-tablet is-half-desktop">
+						<div class="column is-half-mobile is-one-quarter-tablet is-half-desktop is-centered">
 							<figure class="image is-2x1">
-							<img src="https://i.imgur.com/6aKPYHr.png" alt="GreenSize" class="client-logo"/>
+							<img src="https://i.imgur.com/6aKPYHr.png" alt="GreenSize" class="client-logo greensize"/>
 							</figure>
 						</div>
 					</div>

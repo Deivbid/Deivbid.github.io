@@ -309,6 +309,11 @@ div .skills .box .content .columns .column ul {
   margin-top: 4rem;
 }
 
+.greensize{
+  width: 13rem;
+  height: auto;
+}
+
 /*=================== SECTION F ===================*/
 
 .contact {

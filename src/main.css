@@ -358,6 +358,11 @@ figcaption span{
     padding-top: 3rem;
 }
 
+.greensize{
+    width: 13rem !important;
+    margin: 0 auto;
+}
+
 /* ================= END SECTION E ================ */
 
 /* ================ SECTION F ================== */
