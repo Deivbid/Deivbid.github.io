@@ -3,19 +3,19 @@ import logo from './logo.svg';
 import './App.css';
 import LandingPage from './components/LandingPage'
 import Contact from './components/Contact'
-import {BrowserRouter, Route} from 'react-router-dom'
+import {HashRouter, BrowserRouter, Route} from 'react-router-dom'
 
 
 
 class App extends Component {
   render() {
     return (
-    	<BrowserRouter>
+    	<HashRouter>
     		<div>
 	        	<Route exact path="/" component={LandingPage} />
 	        	<Route  path="/contact" component={Contact} />
         	</div>
-        </BrowserRouter>
+        </HashRouter>
 
     );
   }
