@@ -1,7 +1,22 @@
 import React, { Component } from 'react';
+import Rodal from 'rodal'
+
+import 'rodal/lib/rodal.css';
 
 class ProjectCard extends Component {
-    state = {}
+    constructor(props) {
+        super(props);
+        this.state = { visible: false };
+    }
+
+    show() {
+        this.setState({ visible: true });
+    }
+
+    hide() {
+        this.setState({ visible: false });
+    }
+
     render() { 
         let image = this.props.image
         let name = this.props.name
@@ -15,18 +30,38 @@ class ProjectCard extends Component {
                         {name}
                     </h1>
 
-                    <a href="#modal" class="button is-primary is-outlined is-rounded">
-                    <span>Watch a Video </span>
+                    <a onClick={this.show.bind(this)} class="button is-primary is-outlined is-rounded">
+                        <span>Watch a Video </span>
                     </a>
 
                     </figcaption>
 
                 </figure>
 
-                <div class="overlay"></div>        
+                <div class="overlay"></div>
+
+                <Rodal visible={this.state.visible} onClose={this.hide.bind(this)} animation="slideDown" >
+                    <div>
+                        <div className="modal-header">
+                            <header> {name} </header>
+                        </div>
+                        <video controls>
+                                 <source src={this.props.video} type="video/mp4" />
+                                     
+                                 Your browser does not support HTML5 video.
+                        </video>
+                        <div className="modal-footer">
+                            <footer>
+                                {this.props.description}
+                            </footer>
+                        </div>
+                    </div>
+                </Rodal>        
             </div>
          )
     }
 }
  
 export default ProjectCard;
+
+

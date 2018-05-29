@@ -309,6 +309,27 @@ figcaption span{
     font-size: 1.5rem;
     margin-right: 8px;
 }
+
+.modal-footer{
+    margin-top: 2rem;
+    font-family: 'PT sans';
+    font-weight: 300;
+}
+
+.modal-header{
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.rodal-dialog{
+    width: 800px !important;
+    height: 600px !important;
+
+}
+
+video{
+    width: 800px;
+}
 @media screen and (min-width: 769px)
 {
 	.projects .project-grid {
@@ -317,7 +338,24 @@ figcaption span{
 
 	.projects .project-grid figure figcaption {
     	padding: 0rem 2rem;
-	}
+    }
+    
+
+}
+
+@media screen and (max-width: 769px)
+{
+    .rodal-dialog{
+        width: auto !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 769px) and (orientation: landscape){
+
+    video{
+        width: 400px;
+    }
 }
 
 @media screen and (min-width: 1472px){
