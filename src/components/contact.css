@@ -1,0 +1,28 @@
+#contact-image {
+    width: 84px !important;
+    margin: -50px auto 50px !important;
+    z-index: 10 !important;
+}
+
+.navbar.is-planner {
+    border-bottom: 1px solid #E6ECF8;
+    z-index: auto !important;
+}
+
+.is-form-page .container h1.title {
+    font-weight: 400;
+    font-family: 'PT sans'
+}
+
+.contact-icon{
+	font-size: 1.5rem;
+	color: #8C43FF;
+}
+
+h2.title{
+	font-weight: 300;
+}
+
+.box{
+	padding: 4rem;
+}

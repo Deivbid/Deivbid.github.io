@@ -1,28 +1,29 @@
 import React, { Component } from 'react';
 import Title from './Parts/Pieces/Title'
+import {Link } from 'react-router-dom'
 
 export default class SectionG extends Component {
 	render() {
 		return (
-			<div className="action">
-				<div className="container is-narrow">
-					<div className="box">
-						<div className="row">
-							<div className="col-sm-4 fix-box">
-								<Title title="More about me" class="title-action" />
-							</div>
+		    <section class="section call-to-action is-primary has-text-centered">
+		      <div class="container is-narrow">
+		        <div class="box">
+		          <div class="columns level">
+		            <div class="column level-item">
+		             	<Title title="Contact me" class="title" />
+		            </div>
 
-							<div className="col-sm-4 fix-box">
-								<p className="action-text"> I'm very friendly and teamworking person. Feel free to see my resume and know more about me</p>
-							</div>							
+		            <div class="column level-item">
+		              <p>Interested in working together? We should queue up a chat. I'll buy the coffee</p>
+		            </div>
 
-							<div className="col-sm-4 fix-box">
-								<button type="button" className="btn btn-outline-purple but-action"> My Resume </button>
-							</div>							
-						</div>
-					</div>
-				</div>
-			</div>
+		            <div class="column level-item">
+		              <Link to="/contact" class="button is-primary is-outlined is-rounded is-medium">Let's do this</Link>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </section>
 		);
 	}
 }
