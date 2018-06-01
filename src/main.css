@@ -413,9 +413,12 @@ video{
     margin-bottom: 3rem;
 }
 
+.testimonial-block img {
+    border-radius: 50%;
+}
 .section.testimonials .testimonial-block img.avatar {
     margin: 2.5rem auto 2rem;
-    max-width: 96px;
+    max-width: 120px;
     height: auto;
 }
 

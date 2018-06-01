@@ -465,3 +465,8 @@ footer {
     border-bottom: 1px solid #E6ECF8;
 }
 
+/*EXTRAS */
+
+.testimonial-block img {
+  border-radius: 50%;
+}
