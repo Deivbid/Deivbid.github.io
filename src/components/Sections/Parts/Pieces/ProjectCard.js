@@ -45,11 +45,9 @@ class ProjectCard extends Component {
                         <div className="modal-header">
                             <header> {name} </header>
                         </div>
-                        <video controls>
-                                 <source src={this.props.video} type="video/mp4" />
-                                     
-                                 Your browser does not support HTML5 video.
-                        </video>
+                        <iframe
+src={this.props.video}>
+</iframe>
                         <div className="modal-footer">
                             <footer>
                                 {this.props.description}
